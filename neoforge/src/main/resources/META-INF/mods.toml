@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+issueTrackerURL="https://github.com/EwyBoy/AuctionHouse/issues"
+
+[[mods]]
+modId="auctionhouse"
+version="${version}"
+displayName="AuctionHouse"
+displayURL="https://github.com/EwyBoy/AuctionHouse"
+logoFile="icon.png"
+authors="Ewy"
+description="wow!"
+
+[[mixins]]
+config="auctionhouse.mixins.json"
+
+[[dependencies.auctionhouse]]
+   modId="neoforge"
+   type="required"
+   versionRange="[20,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.auctionhouse]]
+   modId="minecraft"
+   type="required"
+   reason="You need Minecraft to play this mod"
+   versionRange="[1.20.4,1.21)"
+   ordering="NONE"
+   side="BOTH"
