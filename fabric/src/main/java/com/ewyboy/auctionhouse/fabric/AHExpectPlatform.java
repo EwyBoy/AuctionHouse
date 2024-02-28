@@ -1,9 +1,10 @@
-package com.ewyboy.auctionhouse.fabric.platform;
+package com.ewyboy.auctionhouse.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
+@SuppressWarnings("unused")
 public class AHExpectPlatform {
 
     /**

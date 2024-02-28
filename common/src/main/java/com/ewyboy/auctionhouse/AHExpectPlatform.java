@@ -1,4 +1,4 @@
-package com.ewyboy.auctionhouse.platform;
+package com.ewyboy.auctionhouse;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

@@ -1,9 +1,10 @@
-package com.ewyboy.auctionhouse.forge.platform;
+package com.ewyboy.auctionhouse.forge;
 
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
+@SuppressWarnings("unused")
 public class AHExpectPlatform {
 
     /**

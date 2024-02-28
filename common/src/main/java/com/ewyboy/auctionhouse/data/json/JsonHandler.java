@@ -1,6 +1,6 @@
 package com.ewyboy.auctionhouse.data.json;
 
-import com.ewyboy.auctionhouse.platform.AHExpectPlatform;
+import com.ewyboy.auctionhouse.AHExpectPlatform;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

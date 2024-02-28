@@ -1,9 +1,10 @@
-package com.ewyboy.auctionhouse.neoforge.platfrom;
+package com.ewyboy.auctionhouse.neoforge;
 
 import net.neoforged.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
+@SuppressWarnings("unused")
 public class AHExpectPlatform {
 
     /**
