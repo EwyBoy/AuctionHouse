@@ -4,9 +4,7 @@ import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
-@SuppressWarnings("unused")
-public class AHExpectPlatform {
-
+public class AHExpectPlatformImpl {
     /**
      * @return The path to the Forge game directory
      */
@@ -20,5 +18,4 @@ public class AHExpectPlatform {
     public static Path getConfigDir() {
         return FMLPaths.CONFIGDIR.get();
     }
-
 }

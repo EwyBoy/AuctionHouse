@@ -4,21 +4,18 @@ import net.neoforged.fml.loading.FMLPaths;
 
 import java.nio.file.Path;
 
-@SuppressWarnings("unused")
-public class AHExpectPlatform {
-
+public class AHExpectPlatformImpl {
     /**
-     * @return The path to the Neoforge game directory
+     * @return The path to the Forge game directory
      */
     public static Path getGameDir() {
         return FMLPaths.GAMEDIR.get();
     }
 
     /**
-     * @return The path to the Neoforge config directory
+     * @return The path to the Forge config directory
      */
     public static Path getConfigDir() {
         return FMLPaths.CONFIGDIR.get();
     }
-
 }

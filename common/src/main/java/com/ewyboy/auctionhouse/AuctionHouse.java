@@ -1,6 +1,6 @@
 package com.ewyboy.auctionhouse;
 
-import com.ewyboy.auctionhouse.data.json.DirectoryHandler;
+import com.ewyboy.auctionhouse.data.json.DirectoryHandlerService;
 
 public class AuctionHouse {
 
@@ -8,7 +8,7 @@ public class AuctionHouse {
 
     public static void init() {
 
-        DirectoryHandler.init();
+        DirectoryHandlerService.init();
 
         AHRegistries.Blocks.BLOCKS.register();
         AHRegistries.BlockEntities.BLOCK_ENTITIES.register();

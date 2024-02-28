@@ -4,9 +4,7 @@ import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;
 
-@SuppressWarnings("unused")
-public class AHExpectPlatform {
-
+public class AHExpectPlatformImpl {
     /**
      * @return The path to the Fabric game directory
      */
@@ -20,5 +18,4 @@ public class AHExpectPlatform {
     public static Path getConfigDir() {
         return FabricLoader.getInstance().getConfigDir();
     }
-
 }

@@ -10,7 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class DirectoryHandler {
+public class DirectoryHandlerService {
 
     public static final Path CONFIG_DIR = Paths.get(AHExpectPlatform.getConfigDir().toAbsolutePath().toString(), AuctionHouse.MOD_ID);
     public static final Path Game_DIR = Paths.get(AHExpectPlatform.getGameDir().toAbsolutePath().toString(), AuctionHouse.MOD_ID);
