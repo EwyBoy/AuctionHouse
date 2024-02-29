@@ -1,15 +1,9 @@
 package com.ewyboy.auctionhouse.data.json;
 
-import com.ewyboy.auctionhouse.AHExpectPlatform;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import java.io.IOException;
 
-import java.io.File;
-
-public class JsonHandler {
-
-    private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-
-    public static final File JSON_DIR = new File(AHExpectPlatform.getConfigDir().toFile(), "auctionhouse");
-
+public interface JsonHandler<T> {
+    void createOrUpdate(T object, String filePath) throws IOException;
+    T read(String filePath) throws IOException;
+    void delete(String filePath);
 }
