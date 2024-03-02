@@ -23,6 +23,13 @@ public class AHRegistries {
 
     public static final Supplier<RegistrarManager> MANAGER_SUPPLIER = Suppliers.memoize(() -> RegistrarManager.get(AuctionHouse.MOD_ID));
 
+    public static void init() {
+        CreativeTabs.CREATIVE_TABS.register();
+        Blocks.BLOCKS.register();
+        BlockEntities.BLOCK_ENTITIES.register();
+        Items.ITEMS.register();
+    }
+
     public static <T> DeferredRegister<T> get(ResourceKey<Registry<T>> registry) {
         return DeferredRegister.create(AuctionHouse.MOD_ID, registry);
     }
