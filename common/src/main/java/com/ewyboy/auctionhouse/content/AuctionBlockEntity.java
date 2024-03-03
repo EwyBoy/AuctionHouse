@@ -1,7 +1,6 @@
 package com.ewyboy.auctionhouse.content;
 
 import com.ewyboy.auctionhouse.AHRegistries;
-import com.ewyboy.auctionhouse.util.ModLogger;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.level.Level;
@@ -23,7 +22,6 @@ public class AuctionBlockEntity extends BlockEntity {
             if (level != null && !level.isClientSide()) {
                 entity.auctionTime++;
                 entity.setChanged();
-                ModLogger.info("Auction Time: " + entity.getAuctionTime());
             }
         }
     }

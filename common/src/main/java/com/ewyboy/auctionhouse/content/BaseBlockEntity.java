@@ -12,7 +12,6 @@ import org.jetbrains.annotations.Nullable;
 
 public abstract class BaseBlockEntity<T extends BlockEntity> extends Block implements EntityBlock {
 
-
     protected abstract BlockEntityType.BlockEntitySupplier<T> getBlockEntityTypeSupplier();
 
     public BaseBlockEntity(Properties properties) {
